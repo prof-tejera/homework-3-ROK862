@@ -1,0 +1,38 @@
+.radio-button-wraper {
+    display: block;
+    width: auto;
+}
+
+.radio-button {
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    box-shadow: 4px 6px 16px 5px #0000002b;
+}
+
+.radio-button input {
+    cursor: pointer;
+    width: 100%;
+    height: 20px;
+    position: relative;
+    color: transparent;
+    opacity: 0;
+    z-index: 100;
+}
+
+.radio-button h4 {
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+    top: -27px;
+    left: 25px;
+    height: 0px;
+    width: 0px;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+}
