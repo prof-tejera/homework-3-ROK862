@@ -19,7 +19,7 @@ class LoginForm extends Component {
         swal("Good job!", "Well, let's pretend for a minute that you have been logged in!", "success");
       } else {
         swal({
-          title: "Invalid Login",
+          title: "Invalid Login.",
           text: "Please complete the login form and try again.",
           icon: "warning",
           buttons: true,
