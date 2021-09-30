@@ -14,11 +14,11 @@ class App extends Component {
             Media Buttons Component (Example)
           </header>
           <div className="App-content">
-            <MediaButtons />
+            <MediaButtons panelClassName='default-panel-wraper' />
           </div>
         </div>
 
-        <div className="App-component">
+        <div className="App-component App-green-bg">
           <header className="App-header">Login form component (TODO)</header>
           <div className="App-content">
             <LoginForm />
@@ -28,14 +28,14 @@ class App extends Component {
         <div className="App-component">
           <header className="App-header">Pager component (TODO)</header>
           <div className="App-content">
-            <Pager />
+            <Pager pages={16} offset={4} index={1} />
           </div>
         </div>
 
         <div className="App-component">
           <header className="App-header">Radio Buttons component (TODO)</header>
           <div className="App-content">
-            <RadioButtons />
+            <RadioButtons components={ ["Apple","Pear","Orange"] } />
           </div>
         </div>
       </div>

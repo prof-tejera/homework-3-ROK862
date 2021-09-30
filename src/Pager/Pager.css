@@ -1,0 +1,39 @@
+button.pager-button {
+    padding: 10px;
+    min-width: 50px;
+    border: 2px solid #ebebeb;
+    background: #fdfdfd;
+    color: black;
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    box-shadow: 2px 2px 15px 2px #efefef;
+    transition: 1s;
+}
+
+button.pager-focused-button {
+    padding: 10px;
+    min-width: 50px;
+    border: 2px solid #ebebeb;
+    background: #1093ff;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    box-shadow: 2px 2px 15px 2px #efefef;
+    transition: 1s;
+    font-weight: bold;
+}
+
+button.pager-button:hover {
+    background: #0d6eff;
+    color: white;
+    cursor: pointer;
+}
+
+.pager-button-wraper {
+    padding: 10px;
+    border: 1px solid #d5d5d5;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px 2px #00000029;
+}
